@@ -1,0 +1,58 @@
+/* styles.css */
+.gradient-text {
+    background: linear-gradient(to right, pink, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .gradients-text {
+    background: linear-gradient(to right, #ffffff, #00bcd4); /* white to cyan gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* styles.css */
+
+/* Animation for the gradient background */
+@keyframes backgroundAnimate {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /* Animation for gradient lines */
+  @keyframes gradientLine {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  
+  /* Animated gradient background for the section */
+  .animate-background {
+    background: transparent;
+    background-size: 200% 200%;
+    animation: backgroundAnimate 10s ease infinite;
+  }
+  
+  /* Animated gradient for the lines */
+  .animate-gradient-line {
+    background: linear-gradient(to right, #b786d7, #7e3a91);
+    background-size: 200% 200%;
+    animation: gradientLine 3s ease infinite;
+    /* Add a blur effect for the lines */
+    filter: blur(1px);
+    /* Adjust the height for better visibility */
+    height: 2px;
+  }
+  
+  /* Ensure the section has a z-index to show above the background */
+  .relative {
+    position: relative;
+  }
+  
