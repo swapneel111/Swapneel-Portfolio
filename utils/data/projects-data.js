@@ -7,10 +7,9 @@ export const projectsData = [
     {
         id: 1,
         name: 'COSMOS-E-HEALTHCARE APP',
-        description: "An online E-consultation and E-commerce medical platform equipped with 24/7 Chatbot for medical guidance
-and end-to-end encrypted for patient medical history database management and booking online
-appointments/lab tests. Tools Used: HTML,CSS,JS,ReactJS,MongoDB,Express,NodeJS,Dialogflow",
-        tools: ['Express', 'MongoDB', 'REST APIs', 'AWS', 'Node', 'Node Mailer', 'Dialogflow', 'HTML', 'CSS', 'Javascript',],
+        description: "An online E-consultation and E-commerce medical platform equipped with 24/7 Chatbot for medical guidance and end-to-end encrypted for patient medical history database management and booking online/offline appointments
+",
+        tools: ['Express', 'MongoDB', 'NodeJS', 'HTML', 'CSS', 'AWS', 'DOCKER', 'Javascript'],
         role: 'Backend Developer',
         code: '',
         demo: '',
