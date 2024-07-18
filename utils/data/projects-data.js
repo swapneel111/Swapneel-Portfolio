@@ -7,8 +7,10 @@ export const projectsData = [
     {
         id: 1,
         name: 'COSMOS-E-HEALTHCARE APP',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        description: "An online E-consultation and E-commerce medical platform equipped with 24/7 Chatbot for medical guidance
+and end-to-end encrypted for patient medical history database management and booking online
+appointments/lab tests. Tools Used: HTML,CSS,JS,ReactJS,MongoDB,Express,NodeJS,Dialogflow",
+        tools: ['Express', 'MongoDB', 'REST APIs', 'AWS', 'Node', 'Node Mailer', 'Dialogflow', 'HTML', 'CSS', 'Javascript',],
         role: 'Backend Developer',
         code: '',
         demo: '',
