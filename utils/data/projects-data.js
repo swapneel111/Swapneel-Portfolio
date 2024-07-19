@@ -17,8 +17,8 @@ export const projectsData = [
     {
         id: 2,
         name: 'E-COMMERCE WEBSITE',
-        description: 'I have designed and developed a full-stack web app for 2Expedition. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        description: 'Fully functioning E-Commerce portal created using MERN stack with admin interface , Redux Toolkit, Payment Gateway, E-mail system',
+        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "ReactJS", "TypeScript", "MongoDB", "AWS", "Redux","Express"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
