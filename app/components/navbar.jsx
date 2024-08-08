@@ -12,7 +12,6 @@ function Navbar() {
             href="/"
             className="text-base font-bold text-gradient" // Gradient for the name
           >
-            SWAPNEEL CHAUDHURI
           </Link>
         </div>
 
